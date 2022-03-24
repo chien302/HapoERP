@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.btn--primary{
+    padding: 8px 18px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    border-radius: 30px;
+    letter-spacing: 1.2px;
+}
+
+
+
+.header{
+    background-image: url(../imgs/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+    .ul-banner{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 53px;
+
+        .about-us {
+            padding: 7px 14px;
+            margin-right: 38px;
+            a{
+                color: black;
+                font-size: 15px;
+
+            }
+        }
+        .sign-in{
+            padding: 7px 14px;
+            border: 2.5px solid #8bc34a;
+            border-radius: 30px;
+
+            a{
+                color:#8bc34a;
+                font-size: 15px;
+            }
+        }
+        
+        
+    }
+    .logo-banner{
+        margin-top: 180px;
+        
+    }
+    .icon-text{
+        margin-top: 83px;
+        i{
+            font-size: 52px;
+            margin-bottom: 10px;
+        }
+        span{
+            display: block;
+            font-size: 30px;
+        }
+    }
+    .text-banner{
+        font-size: 18px;
+        margin-top: 56px;
+    }
+    .btn-banner{
+        margin-top: 90px;
+        padding-bottom: 200px;
+        
+    }
+}
+
+.section-learnt{
+    padding: 100px 0 100px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+
+    .learnt-left{
+        background-image: url(../imgs/today-i-learn.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+    .learnt-right{
+        .icon-and-title{
+            align-items: center;
+            i{
+                font-size: 45px;
+            }
+            h1{
+                margin-inline-start: 20px;
+                font-size: 50px;
+                font-weight: 300;
+            }
+        }
+        .text-content{
+            margin-top: 20px;
+            .text-content-first{
+                font-size: 15px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 25px;
+                text-align: justify;
+                margin-top: 25px;
+            }
+        }
+        
+    }
+}
+
+.section-report{
+    padding: 100px 0 100px;
+
+    .report-left{
+        .report-title {
+            align-items: center;
+            i{
+                font-size: 45px;
+            }
+            h1{
+                font-weight: 300;
+                font-size: 50px;
+                margin-inline-start: 20px;
+
+            }
+        }
+        .report-content{
+            margin-top: 20px;
+            .report-content-first{
+                font-size: 15px;
+
+            }
+            p{
+                font-size: 14px;
+                line-height: 25px;
+                text-align: justify;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+.section-feature{
+    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
+
+    .feature-content{
+        padding: 55px 0 55px;
+        .feature-report{
+            text-align: center;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            i{
+                padding: 46px;
+                border: 2.4px solid white;
+                border-radius: 50%;
+                font-size: 45px;
+                z-index: 0;
+            }
+            .oval-bot {
+                display: flex;
+                height: 45px;
+                width: 45px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                border: 2.4px solid white;
+                transform: translate(100%, -50%);
+                z-index: 1;
+                background-color: #7CB342;
+            }
+            
+            span{
+                display: block;
+                font-size: 20px;
+                color: white;
+                width: 60px;
+                text-align: center;
+                transform: translateX(50%);
+                line-height: 26px;
+                letter-spacing: 1.3px;
+                // margin-top: 25px;
+            }
+        }
+    }
+}
